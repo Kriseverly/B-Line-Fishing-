@@ -44,6 +44,19 @@ export default function BookingForm() {
         <input id="date" name="Preferred date" type="date" required />
       </div>
       <div className="field">
+        <label htmlFor="alt-date">Alternate date</label>
+        <input id="alt-date" name="Alternate date" type="date" />
+      </div>
+      <div className="field">
+        <label htmlFor="contact">Preferred contact</label>
+        <select id="contact" name="Preferred contact" required defaultValue="">
+          <option value="" disabled>How should we reach you?</option>
+          <option>Text</option>
+          <option>Phone call</option>
+          <option>Email</option>
+        </select>
+      </div>
+      <div className="field">
         <label htmlFor="guests">Group size</label>
         <select id="guests" name="Group size" required defaultValue="">
           <option value="" disabled>Select guests</option>
@@ -77,6 +90,10 @@ export default function BookingForm() {
         <label htmlFor="notes">Tell us about your trip</label>
         <textarea id="notes" name="Notes" rows={4} placeholder="Target species, island plans, preferred timing, experience level, or questions" />
       </div>
+      <label className="field wide agree">
+        <input type="checkbox" name="Agreed to charter policies" value="Yes" required />
+        <span>I understand this is a request, not a confirmed booking, and agree to the charter policies.</span>
+      </label>
       <button className="booking-submit" type="submit">
         {submitted ? "Opening confirmation…" : "Send Booking Request"}<span>→</span>
       </button>

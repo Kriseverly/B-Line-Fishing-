@@ -21,18 +21,18 @@ export default function Home() {
             <span>B-LINE<br/><b>FISHING CHARTERS</b></span>
           </a>
           <div className="nav-links">
-            <a href="#trips">Fishing</a><a href="#spearfishing">Spearfishing</a><Link href="/boat-days">Boat Days</Link><a href="#boat">The Boat</a><Link href="/conditions">Reports</Link><Link href="/about">About</Link>
+            <a href="#trips">Fishing</a><a href="#spearfishing">Spearfishing</a><Link href="/boat-days">Boat Days</Link><Link href="/conditions">Reports</Link><a href="#faq">FAQ</a><Link href="/about">About</Link>
           </div>
           <a className="nav-cta" href="#book">Book a Trip <span>↗</span></a>
         </nav>
         <div className="mobile-nav" aria-label="Mobile navigation">
-          <a href="#trips">Fishing</a><a href="#spearfishing">Spearfishing</a><Link href="/boat-days">Boat Days</Link><Link href="/conditions">Reports</Link><Link href="/about">About</Link><a href="#book">Booking</a>
+          <a href="#trips">Fishing</a><a href="#spearfishing">Spearfishing</a><Link href="/boat-days">Boat Days</Link><Link href="/conditions">Reports</Link><a href="#faq">FAQ</a><Link href="/about">About</Link><a href="#book">Booking</a>
         </div>
 
         <div className="hero-lines" aria-hidden="true"><span/><span/><span/></div>
         <div className="hero-content shell">
           <p className="eyebrow">PRIVATE SPORTFISHING · SPEARFISHING · HUNTINGTON HARBOUR</p>
-          <h1>GO FARTHER.<br/><em>FISH HARDER.</em></h1>
+          <h1>B-LINE<br/><em>CHARTERS</em></h1>
           <p className="hero-copy">Private charters aboard Solstice—a 37′ EdgeWater built for Catalina, San Clemente Island, and the offshore grounds.</p>
           <div className="hero-actions">
             <a className="button primary" href="#trips">Explore Trips <span>→</span></a>
@@ -105,7 +105,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="book" id="book"><div className="book-inner shell"><div className="booking-intro"><p className="eyebrow">REQUEST YOUR DATE</p><h2>PLAN YOUR<br/><em>TRIP.</em></h2><p>Choose your preferred date and trip. B-Line will receive your request and contact you to confirm availability.</p><div className="direct-contact"><a href="tel:+17146205933">714-620-5933</a><a href="mailto:bradysmith9@icloud.com">bradysmith9@icloud.com</a></div></div><BookingForm /></div></section>
+      <section className="book" id="book"><div className="book-inner shell"><div className="booking-intro"><p className="eyebrow">REQUEST YOUR DATE</p><h2>PLAN YOUR<br/><em>TRIP.</em></h2><p>Choose your preferred date and trip. B-Line will receive your request and contact you to confirm availability.</p><ol className="booking-steps"><li><span>1</span><p>Send your preferred trip and dates.</p></li><li><span>2</span><p>We confirm the plan, total, and availability.</p></li><li><span>3</span><p>Your deposit secures the date.</p></li></ol><div className="direct-contact"><a href="tel:+17146205933">714-620-5933</a><a href="mailto:bradysmith9@icloud.com">bradysmith9@icloud.com</a></div></div><BookingForm /></div></section>
 
       <footer className="footer shell"><div className="brand"><span>B-LINE<br/><b>FISHING CHARTERS</b></span></div><p><a href="tel:+17146205933">714-620-5933</a> · <a href="mailto:bradysmith9@icloud.com">Email</a></p><p>© 2026 B-Line Fishing Charters</p><p className="credits">San Clemente Island photography: <a href="https://commons.wikimedia.org/wiki/File:San_Clemente_Island_Sunset_1.jpg" target="_blank" rel="noreferrer">Catatonique, CC BY-SA 4.0</a></p></footer>
       <ServicesJsonLd />
