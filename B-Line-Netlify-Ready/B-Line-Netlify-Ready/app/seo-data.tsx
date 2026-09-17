@@ -4,7 +4,7 @@
 export const SITE = {
   name: "B-Line Fishing Charters",
   legalName: "B-Line Fishing Charters",
-  url: "https://bradys-charters-hb.netlify.app",
+  url: "https://blinecharters.com",
   description:
     "Private Southern California sportfishing, spearfishing, Avalon shuttle, and coastal cruise charters aboard Solstice, a 37' EdgeWater departing from Huntington Harbour. Catalina Island, San Clemente Island, and the offshore banks.",
   telephone: "+1-714-620-5933",

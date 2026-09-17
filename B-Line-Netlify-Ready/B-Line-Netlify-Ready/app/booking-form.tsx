@@ -24,7 +24,7 @@ export default function BookingForm() {
       <input type="hidden" name="_subject" value="New B-Line Charter Booking Request" />
       <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://bradys-charters-hb.netlify.app/?request=sent#book" />
+      <input type="hidden" name="_next" value="https://blinecharters.com/?request=sent#book" />
       <input className="honeypot" type="text" name="_honey" tabIndex={-1} autoComplete="off" />
 
       <div className="field wide">

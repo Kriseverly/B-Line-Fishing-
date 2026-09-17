@@ -48,7 +48,7 @@ export default function CrewGrid({ crew }: { crew: CrewMember[] }) {
             <input type="hidden" name="_subject" value={`B-Line crew feedback: ${selected}`} />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="https://bradys-charters-hb.netlify.app/about?feedback=sent" />
+            <input type="hidden" name="_next" value="https://blinecharters.com/about?feedback=sent" />
             <input type="hidden" name="Crew member" value={selected} />
             <input className="honeypot" type="text" name="_honey" tabIndex={-1} autoComplete="off" />
 

@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://bradys-charters-hb.netlify.app/</loc>
+    <loc>https://blinecharters.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://bradys-charters-hb.netlify.app/images/og-image.jpg</image:loc>
+      <image:loc>https://blinecharters.com/images/og-image.jpg</image:loc>
       <image:title>B-Line Fishing Charters — private sportfishing aboard Solstice</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://bradys-charters-hb.netlify.app/spearfishing</loc>
+    <loc>https://blinecharters.com/spearfishing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bradys-charters-hb.netlify.app/boat-days</loc>
+    <loc>https://blinecharters.com/boat-days</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bradys-charters-hb.netlify.app/about</loc>
+    <loc>https://blinecharters.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://bradys-charters-hb.netlify.app/conditions</loc>
+    <loc>https://blinecharters.com/conditions</loc>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bradys-charters-hb.netlify.app/info</loc>
+    <loc>https://blinecharters.com/info</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

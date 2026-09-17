@@ -3,7 +3,7 @@
 Next.js 16 site with a live NOAA conditions API route, booking request form,
 Boat Days / Avalon shuttle page, and full SEO + structured data.
 
-Live site: https://bradys-charters-hb.netlify.app
+Live site: https://blinecharters.com
 
 ## Deploy: GitHub + Netlify
 
